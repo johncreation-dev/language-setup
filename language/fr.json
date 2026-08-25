@@ -1,0 +1,896 @@
+{
+  "language": {
+    "wel_come": "Bienvenue !",
+    "select_language": "Sélectionnez votre langue pour continuer",
+    "continue": "Continuer"
+  },
+  "api_errors": {
+    "network_error": "Erreur réseau. Veuillez vérifier votre connexion Internet et réessayer.",
+    "session_expired": "Votre session a expiré. Veuillez vous reconnecter.",
+    "invalid_refresh_token": "Réponse du jeton de rafraîchissement invalide",
+    "something_went_wrong": "Une erreur s'est produite"
+  },
+  "role": {
+    "wel_come": "Que souhaitez-vous faire ?",
+    "select_your_role": "Choisissez comment vous souhaitez utiliser notre plateforme",
+    "customer_title": "J’ai besoin d’un service",
+    "customer_subtitle": "Publiez des demandes gratuitement et trouvez des professionnels.",
+    "professional_title": "Je suis un professionnel",
+    "professional_subtitle": "Achetez des crédits et trouvez de nouveaux clients."
+  },
+  "login_register": {
+    "email_placeholder": "E-mail",
+    "phone_placeholder": "Numéro de téléphone",
+    "password_placeholder": "Entrez votre mot de passe",
+    "twoFA_placeholder": "Entrez le code 2FA (optionnel)",
+    "agree_terms": "J’accepte les Conditions et la Politique de confidentialité",
+    "login_button": "Continuer",
+    "forgot_password": "Mot de passe oublié ?",
+    "phone_label": "Entrez votre numéro de téléphone pour continuer",
+    "email_label": "Entrez votre e-mail pour continuer",
+    "terms_content": "En continuant, vous acceptez nos ",
+    "terms": "Conditions",
+    "privacy_policy": "Politique de confidentialité",
+    "login_with_email": "Se connecter avec un e-mail à la place",
+    "login_with_phone": "Se connecter avec un numéro de téléphone à la place",
+    "profession_subtitle": "Entrez votre numéro de téléphone pour commencer en tant que prestataire de services.",
+    "profession_Partner": "Devenez partenaire avec nous"
+  },
+  "vrify_otp": {
+    "otp_sent": "Code envoyé à",
+    "resend_timer": "Renvoyer le code dans {{seconds}} s",
+    "resend_in": "Renvoyer le code dans",
+    "resend_otp": "Renvoyer le code",
+    "verify_otp": "Vérifier le code OTP",
+    "button": "Vérifier"
+  },
+  "login_validation": {
+    "email_required": "L'adresse e-mail est requise",
+    "email_invalid": "Format d'adresse e-mail invalide",
+    "phone_required": "Le numéro de téléphone est requis",
+    "phone_invalid": "Numéro de téléphone invalide",
+    "password_required": "Le mot de passe est requis",
+    "password_invalid": "Le mot de passe doit contenir entre 6 et 18 caractères, avec au moins 1 majuscule, 1 minuscule, 1 chiffre et 1 caractère spécial.",
+    "twoFA_invalid": "Format 2FA invalide",
+    "agree_required": "Vous devez accepter les Conditions et la Politique de confidentialité"
+  },
+  "reset_password_validation": {
+    "otp_required": "Le code OTP est requis",
+    "old_password_required": "L'ancien mot de passe est requis",
+    "old_password_invalid": "Ancien mot de passe invalide.",
+    "new_password_required": "Le nouveau mot de passe est requis",
+    "new_password_invalid": "Le mot de passe doit contenir entre 6 et 18 caractères, avec au moins 1 majuscule, 1 minuscule, 1 chiffre et 1 caractère spécial.",
+    "confirm_password_required": "La confirmation du mot de passe est requise",
+    "passwords_mismatch": "Le nouveau mot de passe et la confirmation ne correspondent pas",
+    "old_new_mismatch": "L'ancien mot de passe et le nouveau mot de passe ne peuvent pas être identiques"
+  },
+
+  "profile_setup": {
+    "title": "Configuration du profil",
+    "subtitle": "Parlez-nous un peu de vous",
+    "upload_photo": "Télécharger une photo",
+    "fullName_label": "Nom complet",
+    "email_label": "E-mail",
+    "fullName_placeholder": "ex. Jean Dupont",
+    "email_placeholder": "ex. jean.dupont@example.com",
+    "button": "Enregistrer le profil"
+  },
+  "profile_setup_errors": {
+    "profile_required": "L'image de profil est requise",
+    "name_required": "Le nom est requis",
+    "email_required": "L'e-mail est requis",
+    "email_invalid": "Veuillez saisir un e-mail valide",
+    "address_required": "L'adresse est requise",
+    "about_required": "La section À propos est requise",
+    "feerate_required": "Le tarif horaire est requis",
+    "feerate_invalid": "Le tarif horaire doit être supérieur à 0"
+  },
+  "bottom_tab": {
+    "home": "Accueil",
+    "booking": "Réservations",
+    "chat": "Discussion",
+    "alert": "Alerte",
+    "profile": "Profil",
+    "leads": "Prospects",
+    "wallet": "Portefeuille",
+    "messages": "Messages",
+    "history": "Historique"
+  },
+
+  "home": {
+    "current_location": "LOCALISATION ACTUELLE",
+    "location_value": "Sandton, GP",
+    "search_placeholder": "De quel service avez-vous besoin ?",
+    "offer_title": "Offre sur le nettoyage !",
+    "offer_subtitle": "Utilisez le code",
+    "offer_code": "CLEAN20",
+    "categories_title": "Catégories",
+    "see_all": "Voir tout",
+    "add_address": "Ajouter une adresse",
+    "categories": {
+      "plumbing": "Plomberie",
+      "electrical": "Électricité",
+      "cleaning": "Nettoyage",
+      "painting": "Peinture",
+      "handyman": "Bricolage",
+      "gardening": "Jardinage",
+      "hvac": "CVC",
+      "construction": "Construction",
+      "delivery": "Livraison"
+    },
+    "tap_to_open_announcement": "Appuyez pour ouvrir l’annonce"
+  },
+  "services_details": {
+    "services": "Services",
+    "all": "Tous",
+    "emergency": "Urgence",
+    "installations": "Installations",
+    "estimated": "Estimé: {{title}}",
+    "fix_leak": "Réparer une fuite",
+    "unblock_drain": "Déboucher une canalisation",
+    "geyser_repair": "Réparation de chauffe-eau",
+    "pipe_installation": "Installation de tuyaux",
+    "no_services": "Aucun service trouvé"
+  },
+  "available_providers": {
+    "title": "Prestataires disponibles",
+    "rating_format": "{{rating}}",
+    "distance_format": "{{distance}} km",
+    "book_now": "Réserver maintenant",
+    "no_providers": "Aucun prestataire trouvé",
+    "loading": "Chargement des prestataires..."
+  },
+  "edit_profile": {
+    "title": "Modifier le profil",
+    "full_name": "Nom complet",
+    "email_address": "Adresse e-mail",
+    "phone_number": "Numéro de téléphone",
+    "save_changes": "Enregistrer les modifications"
+  },
+  "manage_address": {
+    "title": "Adresses enregistrées",
+    "default": "PAR DÉFAUT",
+    "add_new": "Ajouter une nouvelle adresse",
+    "empty_title": "Aucune adresse trouvée",
+    "empty_subtitle": "Ajoutez votre première adresse enregistrée",
+    "delete_title": "Supprimer l'adresse",
+    "delete_message": "Êtes-vous sûr de vouloir supprimer cette adresse ?",
+    "delete_success": "Adresse supprimée avec succès",
+    "delete_error": "Échec de la suppression de l'adresse",
+    "primary_success": "Adresse principale mise à jour",
+    "primary_error": "Échec de la mise à jour de l'adresse principale"
+  },
+
+  "add_address": {
+    "title_edit": "Modifier l'adresse",
+    "title_add": "Ajouter une adresse",
+    "label_address": "Étiquette d'adresse",
+    "placeholder_label": "ex. Maison, Bureau",
+    "label_street": "Adresse",
+    "placeholder_street": "Commencez à sélectionner l'adresse à partir de la carte",
+    "default_address": "Définir comme adresse par défaut",
+    "save_button": "Enregistrer l'adresse",
+    "please_wait": "Veuillez patienter...",
+    "error_fill_fields": "Veuillez remplir tous les champs obligatoires",
+    "success_updated": "Adresse mise à jour",
+    "success_added": "Adresse ajoutée",
+    "error_save": "Échec de l'enregistrement de l'adresse"
+  },
+  "location_picker": {
+    "search_placeholder": "Rechercher un lieu",
+    "fallback_marker": "Appuyez sur la carte pour sélectionner un lieu",
+    "title_panel": "Adresse sélectionnée",
+    "btn_cancel": "Annuler",
+    "btn_confirm": "Confirmer la position"
+  },
+  "provider_details": {
+    "name": "Mike Johnson",
+    "rating": "({{review}} avis)",
+    "profession": "Plombier expert",
+    "price_unit": "/ par heure",
+    "about_title": "À propos",
+    "about_text": "Professionnel expérimenté avec plus de 10 ans d’expérience dans les travaux résidentiels et commerciaux. Rapide, fiable et toujours ponctuel.",
+    "info_text": "Vous payez directement le prestataire",
+    "info_subtext": "Aucun paiement n’est traité via l’application",
+    "button": "Demander le service"
+  },
+  "booking_validation": {
+    "not_available_day": "Le prestataire n’est pas disponible le {{day}}",
+    "select_time_range": "Sélectionnez une heure entre {{start}} - {{end}}",
+    "past_date_not_allowed": "Les dates passées ne sont pas autorisées"
+  },
+  "booking_details": {
+    "title": "Détails de la réservation",
+    "service_provider_label": "Service et prestataire",
+    "service_provider_value": "Réparer une fuite • Mike Johnson",
+    "date_label": "Date",
+    "date_value": "Demain",
+    "time_label": "Heure",
+    "time_value": "{{time}}",
+    "address_title": "Adresse du service",
+    "address_type": "Domicile",
+    "address_value": "123 Nelson Mandela Sq, Sandton",
+    "notes_title": "Notes pour le prestataire (optionnel)",
+    "notes_placeholder": "Ex. La fuite se situe sous l’évier de la cuisine...",
+    "button": "Confirmer la réservation",
+    "add_address": "Ajouter une adresse"
+  },
+  "request_status": {
+    "request_sent_title": "Demande envoyée !",
+    "request_sent_subtitle": "En attente de l’acceptation de votre réservation par le prestataire. Cela prend généralement quelques minutes.",
+    "back_home": "Retour à l’accueil",
+    "request_submitted_title": "Demande soumise !",
+    "request_submitted_subtitle": "a soumis votre demande. Vous pouvez maintenant le contacter pour organiser les détails.",
+    "request_accepted_title": "Demande acceptée !",
+    "request_accepted_subtitle": "a accepté votre demande. Vous pouvez maintenant le contacter pour organiser les détails.",
+    "request_pending_title": "Demande en attente !",
+    "request_pending_subtitle": "a mis votre demande en attente. Vous pouvez maintenant le contacter pour organiser les détails.",
+    "provider_name": "Jean-Paul M.",
+    "provider_role": "Plombier expert",
+    "call_provider": "Appeler le prestataire",
+    "send_message": "Envoyer un message",
+    "payment_note": "VOUS PAYEZ LE PRESTATAIRE DIRECTEMENT",
+    "payment_note_2": "Le paiement sera effectué après la fin du service."
+  },
+
+  "rate_review": {
+    "title": "Noter et Avis",
+    "provider_name": "Mike Johnson",
+    "subtitle": "Comment était le service ?",
+    "comment_label": "Laisser un commentaire",
+    "comment_placeholder": "Parlez-nous de votre expérience...",
+    "submit_button": "Soumettre l'avis",
+    "submitting": "Soumission...",
+    "provider_fallback": "Prestataire",
+    "select_rating_error": "Veuillez sélectionner une note",
+    "booking_missing_error": "Détails de réservation manquants",
+    "success_message": "Avis soumis avec succès",
+    "failed_message": "Échec de l'envoi de l'avis"
+  },
+  "my_bookings": {
+    "title": "Mes réservations",
+    "upcoming": "À venir",
+    "completed": "Terminées",
+    "cancelled": "Annulées",
+    "confirmed": "Confirmées",
+    "pending": "En attente",
+    "active": "Actif",
+    "provider": "Prestataire",
+    "fix_leak": "Réparer une fuite",
+    "geyser_repair": "Réparation de chauffe-eau",
+    "time_tomorrow": "Demain, 10:00",
+    "time_oct_24": "24 oct., 14:00"
+  },
+  "pin": {
+    "create_title": "Créer un code PIN",
+    "create_subtitle": "Sécurisez votre compte avec un code PIN à 4 chiffres.",
+    "confirm_title": "Retapez votre code PIN",
+    "confirm_subtitle": "Confirmez votre code PIN à 4 chiffres.",
+    "change_title": "Changer le code PIN",
+    "change_subtitle": "Créez un nouveau code PIN à 4 chiffres.",
+    "confirm_change_title": "Confirmer le nouveau code PIN",
+    "confirm_change_subtitle": "Retapez votre nouveau code PIN à 4 chiffres.",
+    "mismatch_error": "Le code PIN ne correspond pas",
+    "same_pin_error": "Le nouveau code PIN ne peut pas être identique à l’ancien",
+    "success_create": "Code PIN créé avec succès",
+    "success_change": "Code PIN modifié avec succès",
+    "enter_title": "Entrez votre code PIN",
+    "enter_subtitle": "Déverrouillez votre compte",
+    "wrong_pin": "Code PIN incorrect ({{current}}/{{max}})",
+    "locked_error": "Trop de tentatives. Réessayez plus tard.",
+    "locked_for_time": "Trop de tentatives. Verrouillé pendant 1 minute",
+    "verified": "Code PIN vérifié",
+    "try_later": "Réessayez plus tard",
+    "invalid_pin": "Code PIN invalide"
+  },
+  "pin_enter": {
+    "enter_title": "Entrer le code PIN",
+    "enter_subtitle": "Veuillez entrer votre code PIN à 4 chiffres",
+
+    "wrong_pin_with_attempts": "Code incorrect. Il vous reste {{remaining}} essais",
+    "attempts_left": "Essais restants : {{count}}",
+
+    "locked_for_time": "Trop de tentatives. Réessayez plus tard",
+    "locked_timer": "Réessayez dans {{time}}",
+    "locked_error": "Vous êtes temporairement bloqué",
+
+    "verified": "Code PIN vérifié avec succès"
+  },
+  "common": {
+    "alert": "Alerte",
+    "continue": "Continuer",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "ok": "OK",
+    "delete": "Supprimer",
+    "load_more": "Charger plus",
+    "no_data_found": "Aucune donnée trouvée",
+    "no_review_found": "Aucun avis trouvé",
+    "no_bookings_found": "Aucune réservation trouvée",
+    "pending": "En attente",
+    "active": "Actif",
+    "confirmed": "Confirmé",
+    "cancelled": "Annulé",
+    "resolved": "Résolu",
+    "open": "Ouvert",
+    "close": "Fermer",
+    "closed": "Fermé",
+    "completed": "Terminé",
+    "in_progress": "En cours",
+    "no_data_available": "Aucune donnée disponible pour le moment.",
+    "coming_soon": "Bientôt disponible"
+  },
+  "site_settings": {
+    "privacy_policy": "Politique de confidentialité",
+    "provider_terms": "Conditions du fournisseur",
+
+    "privacy_desc": "Découvrez comment vos données sont collectées, utilisées et protégées.",
+    "terms_desc": "Consultez les conditions de service, les politiques et les exigences du compte.",
+
+    "unable_load": "Impossible de charger les paramètres du site",
+    "pull_refresh": "Tirez pour actualiser et réessayer.",
+
+    "support_email": "Email du support",
+    "contact_number": "Numéro de contact",
+    "low_credit": "Limite de crédit basse",
+
+    "privacy_title": "Politique de confidentialité",
+    "privacy_subtitle": "Consultez la dernière politique de confidentialité depuis l’API.",
+
+    "terms_title": "Conditions du fournisseur",
+    "terms_subtitle": "Consultez les dernières conditions d’utilisation depuis l’API.",
+
+    "maintenance": "Le site est actuellement en maintenance",
+
+    "open_doc": "Ouvrir {{title}}"
+  },
+  "maintenance": {
+    "title": "Nous revenons bientôt",
+    "message": "Notre application est actuellement en maintenance programmée. Nous serons de retour sous peu — merci pour votre patience.",
+    "retry": "Réessayer"
+  },
+  "booking_summary": {
+    "title": "Détails de la réservation",
+
+    "job_completed": "Travail terminé",
+    "job_in_progress": "Travail en cours",
+    "job_confirmed": "Travail confirmé",
+    "booking_cancelled": "Réservation annulée",
+    "booking_active": "Réservation active",
+
+    "rate_prompt": "Veuillez évaluer le service",
+
+    "provider_working": "Votre prestataire devrait être en train de travailler",
+    "provider_arrival": "Votre prestataire arrivera à l'heure prévue",
+
+    "provider": "Prestataire",
+    "service": "Service",
+    "date_time": "Date et heure",
+    "created_time": "Créé le",
+    "scheduled_time": "Prévu pour",
+    "provider_comment": "Commentaire du prestataire",
+
+    "first_name": "Mike",
+    "last_name": "Johnson",
+    "role": "Plombier",
+
+    "service_label": "Service",
+    "service_value": "Réparer une fuite",
+
+    "date_time_label": "Date et heure",
+    "date_time_value": "25 oct., 10:00",
+
+    "comment_label": "Commentaire du prestataire",
+    "comment_value": "Fuite réparée dans la salle de bain et la cuisine",
+
+    "update_booking": "Réouvrir la réservation",
+    "cancel_booking": "Annuler la réservation",
+
+    "rate_provider": "Évaluer le prestataire",
+    "report_issue": "Signaler un problème",
+
+    "reschedule_success": "Réservation replanifiée avec succès",
+
+    "cancel_reason_title": "Pourquoi annulez-vous ?",
+    "reason_not_available": "Je ne suis pas disponible",
+    "reason_change_plan": "Changement de plan",
+    "reason_other": "Autre",
+
+    "custom_reason": "Raison personnalisée",
+    "enter_reason": "Saisissez la raison...",
+
+    "confirm_cancel": "Confirmer l’annulation",
+    "close": "Fermer",
+
+    "cancel_reason_required": "Veuillez saisir une raison",
+    "cancel_success": "Réservation annulée avec succès"
+  },
+  "profile_actions": {
+    "edit_profile": "Modifier le profil",
+    "manage_addresses": "Gérer les adresses",
+    "notifications": "Notifications",
+    "settings": "Paramètres",
+    "logout": "Se déconnecter"
+  },
+  "profile_errors": {
+    "profile_required": "Veuillez télécharger une photo de profil",
+    "name_required": "Le nom de l’entreprise ou le nom complet est requis",
+    "email_required": "L’e-mail est requis",
+    "email_invalid": "Veuillez saisir une adresse e-mail valide",
+    "address_required": "L’adresse de l’entreprise est requise",
+    "about_required": "La description de votre entreprise est requise",
+    "feerate_required": "Le prix de base est requis",
+    "feerate_invalid": "Le prix de base doit être supérieur à 0",
+    "services_required": "Veuillez sélectionner au moins un service",
+    "working_days_required": "Veuillez sélectionner au moins un jour de travail"
+  },
+  "verify_identity": {
+    "title": "Vérifier l'identité",
+    "subtitle": "Pour garantir la confiance et la sécurité, nous devons vérifier votre identité.",
+    "id_document_title": "Document d'identité",
+    "id_document_desc": "Passeport ou carte nationale d'identité",
+    "selfie_title": "Prendre un selfie",
+    "selfie_desc": "Doit correspondre à la photo d'identité",
+    "business_title": "Licence commerciale",
+    "optional": "Optionnel",
+    "business_desc": "Pour les entreprises enregistrées",
+    "info_message": "La vérification prend généralement 1 à 2 heures. Vous pouvez continuer à configurer votre profil pendant ce temps.",
+    "submit_button": "Soumettre les documents",
+    "resubmit_button": "Renvoyer les documents",
+    "rejected_title": "Vérification KYC refusée",
+    "rejected_description": "Nous n’avons pas pu vérifier vos documents. Veuillez télécharger des documents valides.",
+    "reupload_message": "Veuillez téléverser à nouveau des documents valides pour poursuivre la vérification.",
+    "approved_title": "Vérification KYC approuvée",
+    "approved_description": "La vérification de votre identité a été effectuée avec succès.",
+    "approved_message": "Votre compte est vérifié et prêt à être utilisé.",
+    "pending_title": "Vérification KYC en attente",
+    "pending_description": "Les documents soumis sont actuellement en cours d’examen.",
+    "pending_message": "La vérification peut prendre un certain temps. Veuillez patienter.",
+    "pdf_selected": "PDF sélectionné avec succès",
+    "file_removed": "Fichier supprimé avec succès",
+    "open_pdf": "Ouvrir le PDF",
+    "pament_proof_title": "Preuve de paiement",
+    "pament_proof_desc": "Veuillez téléverser votre preuve de paiement"
+  },
+  "services": {
+    "title": "Vos services",
+    "subtitle": "Sélectionnez les catégories pour lesquelles vous souhaitez recevoir des demandes de réservation.",
+    "plumbing": "Plomberie",
+    "electrical": "Électricité",
+    "cleaning": "Nettoyage",
+    "painting": "Peinture",
+    "handyman": "Bricolage",
+    "gardening": "Jardinage",
+    "moving": "Déménagement",
+    "ac_repair": "Réparation de climatisation",
+    "carpentry": "Menuiserie",
+    "next_step": "Étape suivante"
+  },
+  "credits": {
+    "title": "3 crédits gratuits !",
+    "subtitle": "Bienvenue sur Métiers ! Nous avons ajouté 3 crédits de démarrage à votre compte.",
+    "info_card": {
+      "title": "Comment ça marche :",
+      "pay_per_lead": "Vous ne payez que pour les demandes que vous acceptez.",
+      "credit_usage": "Réservation acceptée",
+      "refill": "Rechargez vos crédits à tout moment."
+    },
+    "button": "Super, c’est parti !"
+  },
+  "business_profile": {
+    "title": "Profil professionnel",
+    "subtitle": "Voici ce que les clients verront lorsqu’ils rechercheront des services.",
+    "upload_logo": "Télécharger le logo",
+    "business_name_label": "Nom de l’entreprise ou nom complet",
+    "business_name_placeholder": "ex. Services de plomberie Mike",
+    "about_label": "À propos de votre activité",
+    "about_placeholder": "Parlez aux clients de votre expérience...",
+    "rate_label": "Tarif horaire de base (USD)",
+    "button": "Continuer",
+    "email_label": "Adresse e-mail",
+    "email_placeholder": "Entrez votre adresse e-mail",
+    "address_label": "Adresse de l'entreprise",
+    "address_placeholder": "Sélectionnez l'adresse de votre entreprise"
+  },
+  "working_hours": {
+    "title": "Heures de travail",
+    "subtitle": "Quand êtes-vous disponible pour accepter des demandes de réservation ?",
+    "available_days": "Jours disponibles",
+    "daily_schedule": "Horaires quotidiens",
+    "start_time": "Heure de début",
+    "end_time": "Heure de fin",
+    "button": "Terminer la configuration"
+  },
+  "setup_complete": {
+    "title": "Configuration terminée !",
+    "subtitle": "Votre profil est prêt à l’emploi !\nPlongez et commencez à explorer notre application !",
+    "button": "C’est parti !"
+  },
+  "dashboard": {
+    "greeting": "BONJOUR,",
+    "title": "TABLEAU DE BORD",
+    "credits": "{{balance}} Crédits",
+    "buy_credits": "+ Acheter des crédits",
+    "new_requests": "Nouvelles demandes ({{count}})",
+    "active_jobs": "Travaux en cours ({{count}})",
+    "accept": "Accepter",
+    "decline": "Refuser",
+    "credit_val": "{{credits}} crédit",
+    "view_details": "Voir les détails",
+    "no_bookings": "Aucune réservation trouvée pour le moment.",
+    "no": "Non",
+    "yes": "Oui"
+  },
+  "job_details": {
+    "title": "Détails du travail",
+    "customer_name": "Bob Jones",
+    "Customer": "Client",
+    "service_label": "Service",
+    "date_time_label": "Date et heure",
+    "address_label": "Adresse",
+    "navigate_button": "Aller au lieu du travail",
+    "complete_button": "Marquer comme terminé",
+    "booking_details_not_found": "Les détails de la réservation ne sont pas disponibles pour le moment."
+  },
+  "schedule": { "label": "Planning" },
+  "wallet": {
+    "title": "Votre portefeuille",
+    "current_balance": "Solde actuel",
+    "credits": "crédits",
+    "buy_credits": "Acheter des crédits",
+    "credit_history": "Historique des crédits",
+    "no_history": "Aucun historique trouvé"
+  },
+  "buy_credits": {
+    "title": "Acheter des crédits",
+    "subtitle": "Forfaits disponibles",
+    "credits": "{{balance}} Crédits",
+    "bank_details": "Détails du virement bancaire",
+    "button": "J'ai payé",
+    "no_packages": "Aucun forfait de crédits disponible pour le moment.",
+    "copy_success": "{{label}} Copié",
+    "selected_document": "Document sélectionné",
+    "proof_desc": "Preuve de paiement",
+
+    "step_select": "Sélectionner un forfait",
+    "step_upload": "Télécharger la preuve",
+    "upload_hint": "Téléchargez une capture ou un reçu",
+    "uploaded_success": "Téléchargé avec succès",
+    "select_and_upload": "Sélectionnez et téléchargez"
+  },
+  "payment_pending": {
+    "title": "Paiement en cours de vérification",
+    "subtitle": "Notre équipe vérifie votre paiement. Les crédits seront ajoutés sous peu.",
+    "button": "Retour au portefeuille"
+  },
+  "request_details": {
+    "title": "Détails de la demande",
+    "description_label": "Description",
+    "description_text": "Bonjour, j’ai une fuite importante sous mon évier de cuisine. L’eau coule rapidement, j’ai besoin de quelqu’un aujourd’hui s’il vous plaît.",
+    "location_label": "Localisation",
+    "date_label": "Date",
+    "date_value": "26/03/2026",
+    "credits": "crédits",
+    "info_text": "Acceptez cette demande pour débloquer le numéro de téléphone du client et son adresse exacte.",
+    "button": "Accepter la demande",
+    "request_not_available": "La demande n'est pas disponible pour le moment."
+  },
+  "credit_status": {
+    "insufficient_credits": "Crédits insuffisants",
+    "insufficient_subtitle": "Vous n’avez pas assez de crédits pour accepter cette demande. Rechargez votre compte pour débloquer les coordonnées du client.",
+    "current_balance": "Solde actuel des crédits :",
+    "buy_credits": "Acheter des crédits",
+    "cancel": "Annuler"
+  },
+  "setting": {
+    "approved": "Vérifié",
+    "pending": "En attente",
+    "new": "Nouveau",
+    "rejected": "Rejeté",
+    "verified": "Vérifié",
+    "credit_balance": "SOLDE DE CRÉDITS",
+    "credits": "crédits",
+    "buy_credits": "+ Acheter des crédits",
+    "view_history": "Voir l’historique",
+    "edit_profile": "Modifier le profil",
+    "lead_management": "Gestion des prospects",
+    "preferences": "Préférences",
+    "notifications": "Notifications",
+    "read_all": "Tout lire",
+    "legal": "Mentions légales",
+    "support_security": "Support et sécurité",
+    "support_chat": "Chat d’assistance",
+    "logout": "Se déconnecter"
+  },
+  "all_categories": {
+    "title": "Toutes les catégories",
+    "search_placeholder": "Catégorie de recherche",
+    "no_categories": "Aucune catégorie trouvée",
+    "loading": "Chargement des catégories..."
+  },
+  "job_history": {
+    "title": "Historique des travaux",
+    "info_text": "Cette plateforme ne traite pas les paiements en espèces. Seuls les crédits utilisés pour obtenir des prospects sont suivis ici.",
+    "details": "Détails",
+    "client": "Client {{index}}",
+    "credits": "{{credits}} crédits",
+    "time": "Il y a {{age}} jour(s)",
+    "load_more": "Charger plus"
+  },
+  "credit_history": {
+    "title": "Historique des crédits",
+    "info_text": "Cette plateforme ne traite pas les paiements en espèces. Seuls les crédits dépensés pour acquérir des prospects sont suivis ici.",
+    "details": "Détails",
+    "credits": "{{credits}} Crédits",
+    "time": "Il y a {{age}} jour(s)"
+  },
+  "reviews": {
+    "rating": "4.8",
+    "based_on": "Basé sur",
+    "review": "avis",
+    "customer": "Client",
+    "time_ago": "il y a {{time}} semaine"
+  },
+  "profile_edits": {
+    "title": "Paramètres du profil",
+    "short_bio_label": "Brève description",
+    "bio": "Plombier expert avec 10 ans d’expérience dans les réparations résidentielles et commerciales.",
+    "selected_services_label": "Services sélectionnés",
+    "add_service": "+ Ajouter un service",
+    "working_hours_title": "Heures de travail",
+    "working_hours_subtitle": "Quand êtes-vous disponible pour accepter des demandes de réservation ?",
+    "available_days": "Jours disponibles",
+    "plumbing": "Plomberie",
+    "electrical": "Électricité",
+    "cleaning": "Nettoyage",
+    "painting": "Peinture",
+    "handyman": "Bricolage",
+    "gardening": "Jardinage",
+    "hvac": "CVC",
+    "construction": "Construction",
+    "delivery": "Livraison",
+    "business_name": "Nom de l'entreprise",
+
+    "email": "E-mail",
+    "address": "Adresse",
+    "active_categories": "Catégories actives",
+    "working_hours": "Heures de travail",
+    "start_time": "Heure de début",
+    "end_time": "Heure de fin",
+    "save_changes": "Enregistrer les modifications",
+    "short_bio": "Courte biographie",
+    "hourly_rate": "Tarif horaire de base",
+
+    "select_services": "Sélectionner des services",
+    "done": "Terminé"
+  },
+  "lead_management": {
+    "pause_leads_title": "Mettre en pause les nouvelles demandes",
+    "pause_leads_subtitle": "Restreignez temporairement votre profil pour ne plus recevoir de nouvelles demandes de travail",
+    "active_categories": "CATÉGORIES ACTIVES",
+    "service_radius_label": "Rayon de service",
+    "services_heading": "Catégories actives",
+    "loading_services": "Chargement des services...",
+    "no_services": "Aucun service trouvé.",
+    "service_radius_message": "Définissez le rayon maximum pour lequel vous souhaitez recevoir des demandes de travail. Les demandes en dehors de ce rayon ne seront pas envoyées à votre profil."
+  },
+  "chat": {
+    "today": "Aujourd'hui",
+    "yesterday": "Hier",
+    "online": "En ligne",
+    "input_placeholder": "Tapez un message...",
+    "error_no_phone": "Numéro de téléphone non disponible",
+    "error_dialer": "Échec de l'ouverture du composeur",
+    "error_no_chat": "Aucune discussion sélectionnée",
+    "error_empty_msg": "Le message ne peut pas être vide",
+    "error_send_failed": "Échec de l'envoi du message",
+    "user_fallback": "Utilisateur",
+    "received_message": "Bonjour ! J'ai vu votre réservation pour demain à 10h. S'agit-il uniquement de la fuite sous l'évier ?",
+    "sent_message": "Salut Mike ! Oui, il semble que cela vienne du siphon directement sous l'évier de la cuisine.",
+    "start_conversation": "Démarrer la conversation",
+    "header_title": "Discussions",
+    "no_chats": "Aucune discussion trouvée",
+    "invalid_format": "Seuls les fichiers JPG, PNG et WEBP sont autorisés",
+    "size_error": "Le fichier doit être inférieur à {{size}} Mo",
+    "upload_hint": "Max 5Mo • JPG, PNG, WEBP uniquement",
+    "upload_failed": "Échec du téléchargement du fichier"
+  },
+  "create_support": {
+    "change_phone_number": "Changer le numéro de téléphone",
+    "kyc_verification": "Vérification KYC",
+    "verified": "Vérifié",
+    "pending": "En attente",
+    "reject": "Rejeter",
+    "not_verified": "Non vérifié",
+    "help": "AIDE",
+    "categories": "Catégories",
+    "report_problem": "Signaler un problème",
+    "submit_ticket": "Soumettre le ticket",
+    "privacy_policy": "Politique de confidentialité",
+    "provider_terms": "Conditions du prestataire",
+    "delete_provider_account": "Supprimer le compte prestataire",
+    "delete_account": "Supprimer le compte",
+    "issue_placeholder": "Décrivez votre problème avec un client ou l’application...",
+    "app_version": "Version de l’application v{{version}}",
+    "change_pin": "Changer le code PIN",
+    "change_pin_subtitle": "Mettre à jour votre code PIN de sécurité",
+    "change_phone_error": "Vous avez déjà une demande de changement de téléphone. Veuillez attendre son approbation ou son refus."
+  },
+  "support_list": {
+    "create_ticket": "+ Créer un ticket",
+    "loading": "Chargement des tickets...",
+    "no_data": "Aucune donnée trouvée",
+    "status_label": "Statut :",
+    "ticket_id": "ID du ticket :",
+    "subject_prefix": "Objet :",
+    "view_chat": "Voir le chat"
+  },
+  "support_ticket_chat": {
+    "subject_prefix": "Objet :",
+    "ticket_id": "ID du ticket :",
+    "status_label": "Statut :",
+    "loading_messages": "Chargement des messages...",
+    "no_messages": "Aucun message trouvé",
+    "close_ticket": "Fermer le ticket",
+    "message_placeholder": "Tapez un message"
+  },
+  "preferences_screen": {
+    "language": "Langue",
+    "dark_mode": "Mode sombre",
+    "alerts_notifications": "ALERTES ET NOTIFICATIONS",
+    "new_lead_request": "Nouvelle demande de prospect",
+    "lead_expiring_soon": "Prospect expirant bientôt",
+    "low_credit_warning": "Alerte crédit faible",
+    "chat_messages": "Messages de chat",
+    "in_app_sounds": "Sons dans l'application",
+    "loading_settings": "Chargement des paramètres de notification...",
+    "no_settings": "Aucun paramètre de notification trouvé."
+  },
+  "create_ticket": {
+    "title": "Créer un ticket de support",
+    "issue_placeholder": "Décrivez votre problème avec un client ou l’application...",
+    "submit_button": "Soumettre le ticket",
+    "select_categories": "Sélectionner des catégories",
+    "loading_categories": "Chargement des catégories..."
+  },
+  "cancel_booking": {
+    "title": "Annuler la réservation",
+    "subtitle": "Veuillez saisir la raison de l’annulation pour confirmer.",
+    "placeholder": "Entrez la raison de l’annulation"
+  },
+
+  "logout": {
+    "title": "Se déconnecter",
+    "message": "Êtes-vous sûr de vouloir vous déconnecter ?",
+    "cancel": "Annuler",
+    "confirm": "Se déconnecter",
+    "success": "Vous avez été déconnecté avec succès."
+  },
+  "validation": {
+    "invalid_otp": "Veuillez entrer un OTP valide",
+    "enter_phone": "Veuillez entrer un numéro de téléphone valide",
+    "invalid_phone": "Veuillez entrer un numéro de téléphone valide",
+    "invalid_phone_length": "Veuillez entrer un numéro de téléphone valide",
+    "invalid_pin": "Veuillez entrer un code PIN valide"
+  },
+  "change_phone": {
+    "continue": "Continuer",
+    "send_code": "Envoyer le code de vérification",
+    "verify": "Vérifier",
+    "back_profile": "Retour au profil",
+    "resend_otp": "Renvoyer le code",
+
+    "security_title": "Vérification de sécurité",
+    "security_desc": "Entrez votre code PIN à 4 chiffres pour modifier votre numéro de téléphone.",
+
+    "title": "Modifier le numéro de téléphone",
+    "desc": "Entrez votre nouveau numéro de téléphone.",
+    "placeholder": "Nouveau numéro de téléphone",
+    "helper": "Nous utiliserons ce numéro pour vous envoyer des alertes SMS concernant les nouveaux prospects, les messages clients et les mises à jour de crédit.",
+
+    "verify_title": "Vérifier le code",
+    "verify_desc": "Code envoyé à",
+
+    "resend_in": "Renvoyer le code dans",
+
+    "success_title": "Numéro mis à jour !",
+    "success_desc": "C’est fait ! Les futures alertes et communications seront envoyées à votre nouveau numéro."
+  },
+  "errors": {
+    "address_details_required": "Veuillez d’abord ajouter les détails de l’adresse.",
+    "try_again": "Veuillez réessayer plus tard.",
+    "profile_details_required": "Veuillez d’abord ajouter les détails du profil.",
+    "kyc_details_required": "Ce processus ne peut être utilisé qu’après la vérification KYC."
+  },
+  "upload": {
+    "title": "Télécharger un fichier",
+    "message": "Choisissez le type de fichier",
+    "photo": "Photo",
+    "pdf": "PDF",
+    "cancel": "Annuler"
+  },
+
+  "data": {
+    "requests": {
+      "urgent_sink_leak": "Fuite urgente d’évier",
+      "customer_client": "(Client)"
+    },
+    "jobs": {
+      "fix_leak": "Réparer la fuite",
+      "pipe_installation": "Installation de tuyaux",
+      "customer": "Client",
+      "duration_1hr": "(1 h)",
+      "duration_2hrs": "(2 h)"
+    },
+    "days": {
+      "mon": "LUN",
+      "tue": "MAR",
+      "wed": "MER",
+      "thu": "JEU",
+      "fri": "VEN"
+    },
+    "job_history": {
+      "major_repair": "Réparation majeure",
+      "electrical": "Électrique",
+      "plumbing": "Plomberie"
+    },
+    "reviews": {
+      "review_text": "Excellent service ! Mike est arrivé à l’heure, très professionnel, et a réparé la fuite rapidement. Je recommande vivement."
+    },
+
+    "notifications": {
+      "header": "Notifications",
+      "load_more": "Charger plus",
+      "empty": "Aucune notification trouvée",
+      "read_all": "Tout lire",
+      "confirmed_title": "Réservation confirmée !",
+      "confirmed_subtitle": "{{name}} a accepté votre demande pour {{date}} à {{time}}.",
+      "payment_title": "Paiement reçu",
+      "payment_subtitle": "Votre paiement de {{amount}} pour la réservation {{bookingId}} a été effectué avec succès.",
+      "cancelled_title": "Réservation annulée",
+      "cancelled_subtitle": "Votre réservation {{bookingId}} a été annulée par le prestataire.",
+      "promo_title": "Promo : {{discount}}",
+      "promo_subtitle": "Utilisez le code {{code}} pour votre prochain service.",
+      "just_now": "À l’instant",
+      "minutes_ago": "il y a {{count}} min",
+      "hours_ago": "il y a {{count}} h",
+      "days_ago": "il y a {{count}} jours",
+      "weeks_ago": "il y a {{count}} semaines"
+    },
+
+    "buy_credits": {
+      "bank": "Banque",
+      "name": "Nom du compte",
+      "number": "Numéro de compte",
+      "ifsc": "Code IFSC",
+      "branch": "Agence",
+      "address": "Adresse de la banque",
+      "reference": "Référence"
+    },
+
+    "notifications_settings": {
+      "header": "Notifications",
+
+      "booking_confirmed_title": "Réservation confirmée",
+      "booking_confirmed_subtitle": "Lorsque vous demandez un service avec succès",
+
+      "provider_accepted_title": "Prestataire accepté",
+      "provider_accepted_subtitle": "Lorsqu’un professionnel accepte votre demande",
+
+      "service_reminder_title": "Rappel de service",
+      "service_reminder_subtitle": "La veille de votre service programmé",
+
+      "promotional_title": "Messages promotionnels",
+      "promotional_subtitle": "Réductions et actualités de la plateforme",
+
+      "sound_title": "Sons de l’application",
+      "sound_subtitle": "Alertes et sons de notification"
+    }
+  },
+
+  "sample_screen": {
+    "text": "est en cours de développement",
+    "help_support": "Aide & Support",
+    "no_data_found": "Aucune donnée trouvée"
+  }
+}
