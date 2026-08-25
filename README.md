@@ -57,31 +57,11 @@ const LoginScreen = () => {
 You had:
 
 ```md
-## 🌍 Multiple Languages
-Example language files:
-``json
-{
-...
+## 🌍 Multiple Languages Example language files: 
+```json {
+"en": {"login_register": { "privacy_policy": "Privacy Policy" } },
+"ta": { "login_register": { "privacy_policy": "தனியுரிமைக் கொள்கை" } }, 
+"es": { "login_register": { "privacy_policy": "Política de privacidad" } }
 }
 ```
-
-The opening fence is invalid:
-
-```md
-``json
-```
-
-It must have **three backticks**:
-
-```md
-``json
-```
-
-And your TypeScript code also needs an opening and closing fence:
-
-```md
-```tsx
-// code here
-```
-
 The corrected version above will render properly on GitHub with **syntax highlighting**, separate code blocks, and properly formatted JSON.
