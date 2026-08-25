@@ -3,7 +3,7 @@ Also, your **Usage** TypeScript example isn't inside a code block, so GitHub ren
 
 Use this complete corrected README:
 
-````md
+``md
 # 🌍 Translation Helper
 
 Use the `useTransHelper` hook to access the translation function throughout
@@ -33,7 +33,7 @@ your React Native components.
 
 ## 🚀 Usage
 
-```tsx
+````tsx
 
 import React from 'react';
 
@@ -51,7 +51,7 @@ const LoginScreen = () => {
     </AppText>
   );
 };
-```
+````
 ### Why yours was displaying incorrectly
 
 You had:
