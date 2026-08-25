@@ -41,3 +41,24 @@ const LoginScreen = () => {
     </AppText>
   );
 };
+
+## 🌍 Multiple Languages
+Example language files:
+``json
+{
+  "en": {
+    "login_register": {
+      "privacy_policy": "Privacy Policy"
+    }
+  },
+  "ta": {
+    "login_register": {
+      "privacy_policy": "தனியுரிமைக் கொள்கை"
+    }
+  },
+  "es": {
+    "login_register": {
+      "privacy_policy": "Política de privacidad"
+    }
+  }
+}
