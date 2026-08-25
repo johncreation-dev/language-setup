@@ -1,4 +1,10 @@
-## 🌍 Translation Helper
+
+Also, your **Usage** TypeScript example isn't inside a code block, so GitHub renders it as normal text.
+
+Use this complete corrected README:
+
+````md
+# 🌍 Translation Helper
 
 Use the `useTransHelper` hook to access the translation function throughout
 your React Native components.
@@ -23,7 +29,11 @@ your React Native components.
 - 🔑 **Key-Based Translations**  
   Use structured translation keys instead of hardcoded text for better maintainability.
 
-## Usage
+---
+
+## 🚀 Usage
+
+```tsx
 
 import React from 'react';
 
@@ -41,24 +51,37 @@ const LoginScreen = () => {
     </AppText>
   );
 };
+```
+### Why yours was displaying incorrectly
 
+You had:
+
+```md
 ## 🌍 Multiple Languages
 Example language files:
 ``json
 {
-  "en": {
-    "login_register": {
-      "privacy_policy": "Privacy Policy"
-    }
-  },
-  "ta": {
-    "login_register": {
-      "privacy_policy": "தனியுரிமைக் கொள்கை"
-    }
-  },
-  "es": {
-    "login_register": {
-      "privacy_policy": "Política de privacidad"
-    }
-  }
+...
 }
+```
+
+The opening fence is invalid:
+
+```md
+``json
+```
+
+It must have **three backticks**:
+
+```md
+``json
+```
+
+And your TypeScript code also needs an opening and closing fence:
+
+```md
+```tsx
+// code here
+```
+
+The corrected version above will render properly on GitHub with **syntax highlighting**, separate code blocks, and properly formatted JSON.
